@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+
+  oracle-db:
+    image: gvenzl/oracle-xe
+    container_name: royal-oracle
+    ports:
+      - "1521:1521"
+    environment:
+      ORACLE_PASSWORD: oracle
+
+  mongodb:
+    image: mongo
+    container_name: royal-mongo
+    ports:
+      - "27017:27017"
