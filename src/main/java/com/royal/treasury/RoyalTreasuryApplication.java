@@ -1,4 +1,4 @@
-package com.royal.treasury.treasury;
+package com.royal.treasury;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
